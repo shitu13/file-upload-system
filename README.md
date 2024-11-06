@@ -43,8 +43,8 @@ Make sure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/shitu13
-cd simple-crud
+git clone https://github.com/shitu13/file-upload-system.git
+cd file-upload-system
 ```
 ### Install Dependencies
 
