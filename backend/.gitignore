@@ -21,7 +21,6 @@ frontend/.vite/
 backend/dist/
 backend/build/
 backend/temp/
-backend/uploads/
 
 # OS-specific files
 .DS_Store
