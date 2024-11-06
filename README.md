@@ -1,6 +1,6 @@
 # File Upload System with Vite & React
 
-This project is a File Upload System developed using React and Vite for the frontend, with the backend API for file handling built in Node.js or any other backend stack you are using. The system allows users to upload multiple files at once, view the selected files with their extensions, and display progress while the files are being uploaded. The application is designed to be highly responsive and user-friendly, enabling users to easily upload files with minimal steps.
+This project is a File Upload System developed using React and Vite for the frontend, with the backend API for file handling built in Node.js. The system allows users to upload multiple files at once, view the selected files with their extensions, and display progress while the files are being uploaded. The application is designed to be highly responsive and user-friendly, enabling users to easily upload files with minimal steps.
 
 ## Table of Contents
 
