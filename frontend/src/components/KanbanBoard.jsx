@@ -24,16 +24,18 @@ const KanbanBoard = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      <div className="flex gap-4 overflow-x-auto">
-        {columns.map((column) => (
-          <KanbanColumn
-            key={column.id}
-            column={column}
-            tasks={tasks.filter((task) => task.status === column.id)}
-            onTaskStatusChange={handleTaskStatusChange}
-          />
-        ))}
+    <div className="h-screen bg-gray-100">
+      <div className="h-full flex overflow-x-auto p-6">
+        <div className="flex gap-4 flex-nowrap">
+          {columns.map((column) => (
+            <KanbanColumn
+              key={column.id}
+              column={column}
+              tasks={tasks.filter((task) => task.status === column.id)}
+              onTaskStatusChange={handleTaskStatusChange}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
